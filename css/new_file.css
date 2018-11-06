@@ -1,0 +1,296 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"楷体";
+}
+body{
+	
+}
+
+.head{
+	width: 100%;
+	height: 120px;
+	background: url(../img/header_bg.jpg) no-repeat ;
+	background-size:100% 100%;
+	
+}
+.head-bx{
+	width: 1100px;
+	height: 120px;
+	margin: 0 auto;
+	
+}
+.logo{
+	
+	width: 200px;
+	margin-top: -3px;
+	float: left;
+}
+li{
+	list-style: none;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+.nav{
+	width: 570px;
+	height: 120px;
+	
+	float: right;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.nav a{
+	color: white;
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+.img1{
+	margin-left: 10px;
+}
+.nav a div{
+	float: left;
+}
+
+.nav li{
+	position: relative;
+}
+.xga{
+	display: block;
+
+
+
+}
+.xgdiv{
+	width: 170PX;
+	
+	background: #352549;
+	position: absolute;
+	top: 50px;
+	left: -20px;
+	z-index: 100;
+	height: 0;
+	overflow: hidden;
+	
+}
+.xgdiv a{
+	height: 40px;
+	width: 170px;
+	font-size:12px ;
+	line-height: 40px;
+	padding-left: 20px;
+	position: relative;
+}
+
+.section1{
+	width: 100%;
+	height: 593px;
+	background: url(../img/banner02_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.xgdiv p{
+	margin-top: -3px;
+}
+.itu{
+	z-index: 101;
+	position: absolute;
+	right: 25px;
+	top: 14px;
+	font-size: 12px;
+	color: transparent;
+}
+.xgdiv a:hover .pbq{
+	margin-left: 10px;
+}
+.xgdiv a:hover{
+	background: #3398DA;
+}
+.xgdiv a:hover .itu{
+	color: white;
+}
+.section1-bx{
+	width: 1100px;
+	height: 593px;
+	
+	margin: 0 auto;
+	position: relative;
+	
+}
+.se1-tu{
+	position: absolute;
+	top: 170px;
+	left: 0px;
+	
+}
+.se1-tu1{
+	position: absolute;
+	top: 60px;
+	left: 190px;
+}
+.se1-tu2{
+	position: absolute;
+	top: 185px;
+	left: 210px;
+}
+.section2{
+	overflow: hidden;
+	width: 100%;
+	height: 900px;
+	background: #f1f2f6;
+}
+.se2-bx{
+	width: 1100px;
+	height: 880px;
+	
+	margin: 0 auto;
+	overflow: hidden;
+    
+}
+.se2-tu{
+	margin-left:500px;
+	margin-top: 80px;
+	
+}
+.se2-tu1{
+	
+	margin-left: 430px;
+	margin-top: -80px;
+}
+.se2-tu1 p:nth-child(1) {
+	
+  font-size: 54px;
+  font-
+  color: rgb( 49, 24, 89 );
+  line-height: 0.296;
+  margin-top: 140px;
+  
+}
+.se2-tu1 p:nth-child(2){
+	margin-left: 13px;
+	margin-top: 25px;
+	font-size: 22px;
+	 color: rgb( 49, 24, 89 );
+	 letter-spacing: 4px;
+}
+.se2-main{
+	margin-top: 100px;
+}
+.se2-mainz{
+	width: 370px;
+	height: 436px;
+	float: left;
+}
+.se2-mainy{
+	width: 640px;
+	height: 436px;
+	
+	float: right;
+}
+.se2-mainy-1{
+	color: rgb( 49, 24, 89 );
+	font-size: 25px;
+}
+.se2-mainy-2{
+	position: relative;
+}
+.se2-bi{
+	position: absolute;
+	right: 26px;
+	top: -36px;
+}
+.se2-mainy-3{
+	margin-top: 40px;
+}
+.se2-mainy-3-cont{
+	float: right;
+}
+.se2-mainy-3-cont div:nth-child(1) {
+  font-size: 24px;
+  
+  color: rgb( 107, 106, 111 );
+  line-height: 0.667;
+  
+  z-index: 285;
+}
+.se2-mainy-3-cont div:nth-child(2)  {
+	margin-right: 15px;
+  font-size: 14px;
+  
+  color: rgb( 188, 169, 215 );
+  line-height: 1.714;
+ /*word-break: break-word;*/
+  width: 473px;
+  height: 62px;
+  z-index: 308;
+  margin-top: 15px;
+}
+.se2-mainy-4{
+	margin-top: 35PX;
+}
+.se2-mainy-5{
+	margin-top: 20PX;
+}
+.se2-mainy-5 p {
+  font-size: 14px;
+  
+  color: rgb( 188, 169, 215 );
+  line-height: 1.714;
+  margin-top: 5px;
+  width: 590px;
+  
+ 
+}
+.se2-mainy-6{
+	font-size: 20px;
+	margin-top: 60px;
+	color: rgb( 188, 169, 215 );
+	float: right;
+	margin-right: 30px;
+	position: relative;
+}
+.se2-mainy-6 div{
+	position: absolute;
+}
+.se2-mainy-6 div:nth-child(1){
+	top: -20px;
+	left: -20px;
+}
+.se2-mainy-6 div:nth-child(2){
+	bottom: -20px;
+	right: -20px;
+}
+.section3{
+	width: 100%;
+	height: 1387px;
+	background: url(../img/works_bg_02.png) no-repeat;
+	background-size:100% 100%;
+	overflow: hidden;
+}
+.se3-bx{
+	overflow: hidden;
+	width: 1100px;
+	height: 1387px;
+	margin: 0 auto;
+     
+}
+.se3-p{
+	margin-top:30PX;
+	color: white;
+}
+.se3-p p:nth-child(2){
+	margin-left: 47PX;
+	color: white;
+}
+.se3-main{
+	margin-top: 100px;
+	position: relative;
+}
+.se2-main1{
+	margin-top: 290px;
+}

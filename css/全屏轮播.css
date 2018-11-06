@@ -1,0 +1,141 @@
+* {
+				margin: 0;
+				padding: 0;
+				font-family: "楷体";
+			}
+
+			.screen-banner {
+				overflow: hidden;
+				position: relative;
+				top: 0;
+			}
+
+			.all-screen {
+				top: 0;
+				position: absolute;
+				transition: top 0.5s;
+			}
+.kaitou{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 100;
+	background:#299ad6;
+	display: none;			
+}
+.kaitou-bx{
+	
+	width: 1100px;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	color: white;
+	overflow: hidden;
+}
+.ngif{
+	position: absolute;
+	top: 110px;
+	left: 50%;
+	margin-left: -200px;
+	
+}
+.kaitou-zi1{
+	position: absolute;
+	left: 488px;
+	top: 460px;
+	opacity: 0;
+}
+.kaitou-zi1 p:nth-child(1){
+	font-size: 36PX;
+	letter-spacing: 5PX;
+	margin-left: -8PX;
+}
+.kaitou-zi1 p:nth-child(2){
+	letter-spacing: 2px;
+}
+.kaitou-zi2{
+	font-size: 50px;
+	top: 540px;
+	left: 340px;
+	width: 450px;
+	opacity: 0;
+	
+	position: relative;
+}
+.kaitou-zi2 div{
+	position: absolute;
+}
+.kaitou-zi2 div:nth-child(1){
+	top: -40px;
+	left: -20px;
+}
+.kaitou-zi2 div:nth-child(2){
+	bottom: -20px;
+	right: -20px;
+}
+.kaitou-zi3{
+	position: absolute;
+	top: 540px;
+	left: 220PX;
+	opacity: 0;
+	font-size: 25PX;
+}
+.kaitou-zi4{
+	font-size: 25px;
+	position: absolute;
+	top: 580px;
+	left: 263px;
+opacity: 0;	
+}
+.head{
+	width: 100%;
+	height: 50px;
+	background: url(../img/aboutxiaoniao/beader_bg.jpg);
+	background-size:100% 100%;
+	position: absolute;
+	top: 0;
+	z-index: 90;
+}
+.head-bx{
+	width: 1100px;
+	height: 50px;
+	margin: 0 auto;
+	color: whitesmoke;
+	/*display: flex;
+	justify-content: space-between;*/
+	/*align-items: center;*/
+}
+li{
+	list-style: none;
+}
+.head-bx ul{
+	width: 500PX;
+	height: 50px;
+	
+	float: left;
+	margin-left: 40PX;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.head-bx li{
+	
+	position: relative;
+	color: darkgrey;
+	
+}
+.xyd{
+	width: 5px;
+	height: 5px;
+	background: white;
+	border-radius:50%;
+	;
+	position: absolute;
+    top: 0px;
+    left: -5px;
+	/*left: 50%;
+	margin-left: -2.5px;*/
+	display: none;
+	
+}
